@@ -40,30 +40,6 @@ Every Saturday evening on Discord or Zoom video call.
 
 ## Authors
 
-Explain what these tests test and why
-
-    Give an example
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## Authors
-
   - **Jiin Kim** - *Researcher* -
     [jkim1238](https://github.com/jkim1238)
   - **Nour Fouladi** - *Analyst* -
