@@ -24,10 +24,11 @@ playlist_features_list = ["artist", "album", "track_name", "track_id",
 playlist_df = pandas.DataFrame(columns=playlist_features_list)
 
 # Loop through every track in the playlist, extract features and append the features to the playlist df
-
 for track in playlist["tracks"]["items"]:
+  
     # Create empty dict
     playlist_features = {}
+    
     # Get metadata
     playlist_features["artist"] = track["track"]["album"]["artists"][0]["name"]
     playlist_features["album"] = track["track"]["album"]["name"]
@@ -43,4 +44,5 @@ for track in playlist["tracks"]["items"]:
     track_df = pandas.DataFrame(playlist_features, index=[0])
     playlist_df = pandas.concat([playlist_df, track_df], ignore_index=True)
 
+# Convert to csv file
 playlist_df.to_csv('hot100.csv')
