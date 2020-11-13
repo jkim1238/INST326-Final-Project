@@ -19,25 +19,13 @@ Our project will be able to identify popular genres, artists, and audio metrics 
 
 ### Project Breakdown and Division of Labor
 
-What things you need to install the software and how to install them
+The main software components will be scripts that will retrieve the data with spotipy and read data from the .csv file which will plot a graph based on a specific metric (ex. frequency of genre, frequency of artist, frequency of album).
 
-    Give examples
+The non-programming task is learning spotipy API and matplotlib modules which will be handled by the researcher.
 
 ### Meetings and Communication
 
-A step by step series of examples that tell you how to get a development
-env running
-
-Say what the step will be
-
-    Give the example
-
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
+Every Saturday evening on Discord or Zoom video call.
 
 ## Schedule and Milestones
 
