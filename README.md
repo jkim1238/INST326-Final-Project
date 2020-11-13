@@ -1,37 +1,29 @@
-# Project Title
+# Spotify Billboard Hot 100 Analysis
 
-One Paragraph of project description goes here
+A program that will analyze a dataset from Spotify’s Billboard Hot 100.
 
-This initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2), but as
-I can no longer open that page as there are too many comments, I have
-moved it here.
+Our project will be able to identify popular genres, artists, and audio metrics that makes a song reach The Hot 100. The project will be able to extract from the selected dataset and visualize it with graphs such as pie charts and bar graphs using spotipy and matplotlib modules in Python. Our project will not be creating our own plotting modules or analyzing songs outside The Hot 100.
 
 ## Summary
 
-  - [Getting Started](#getting-started)
-  - [Runing the tests](#running-the-tests)
-  - [Deployment](#deployment)
-  - [Built With](#built-with)
-  - [Contributing](#contributing)
-  - [Versioning](#versioning)
+  - [Scope](#scope)
+  - [Project Breakdown and Division of Labor](#project-breakdown-and-division-of-labor)
+  - [Meetings and Communication](#meetings-and-communcation)
+  - [Schedule and Milestones](#schedule-and-milestones)
+  - [Bibliography](#bibliography)
   - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
-## Getting Started
+## Scope
 
-These instructions will get you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on how to deploy the project on a live system.
+Our project will be able to identify popular genres, artists, and audio metrics that makes a song reach The Hot 100. The project will be able to extract from the selected dataset and visualize it with graphs such as pie charts and bar graphs using spotipy and matplotlib modules in Python. Our project will not be creating our own plotting modules or analyzing songs outside The Hot 100.
 
-### Prerequisites
+### Project Breakdown and Division of Labor
 
 What things you need to install the software and how to install them
 
     Give examples
 
-### Installing
+### Meetings and Communication
 
 A step by step series of examples that tell you how to get a development
 env running
@@ -47,17 +39,17 @@ And repeat
 End with an example of getting some data out of the system or using it
 for a little demo
 
-## Running the tests
+## Schedule and Milestones
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+### Bibliography
 
 Explain what these tests test and why
 
     Give an example
 
-### And coding style tests
+### Authors
 
 Explain what these tests test and why
 
@@ -93,15 +85,3 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 See also the list of
 [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
 who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code was used
-  - Inspiration
-  - etc
