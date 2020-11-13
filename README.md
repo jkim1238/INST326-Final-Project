@@ -17,13 +17,13 @@ Our project will be able to identify popular genres, artists, and audio metrics 
 
 Our project will be able to identify popular genres, artists, and audio metrics that makes a song reach The Hot 100. The project will be able to extract from the selected dataset and visualize it with graphs such as pie charts and bar graphs using spotipy and matplotlib modules in Python. Our project will not be creating our own plotting modules or analyzing songs outside The Hot 100.
 
-### Project Breakdown and Division of Labor
+## Project Breakdown and Division of Labor
 
 The main software components will be scripts that will retrieve the data with spotipy and read data from the .csv file which will plot a graph based on a specific metric (ex. frequency of genre, frequency of artist, frequency of album).
 
 The non-programming task is learning spotipy API and matplotlib modules which will be handled by the researcher.
 
-### Meetings and Communication
+## Meetings and Communication
 
 Every Saturday evening on Discord or Zoom video call.
 
@@ -33,13 +33,12 @@ Every Saturday evening on Discord or Zoom video call.
 •	Retrieve dataset
 •	Program a graph each week
 
-### Bibliography
+## Bibliography
 
-Explain what these tests test and why
+•	https://www.billboard.com/charts/hot-100
+•	https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
-    Give an example
-
-### Authors
+## Authors
 
 Explain what these tests test and why
 
