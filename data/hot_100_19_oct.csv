@@ -1,0 +1,101 @@
+,artist,album,track_name,track_id,danceability,energy,key,loudness,mode,speechiness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+0,24kGoldn,Mood (feat. iann dior),Mood (feat. iann dior),3tjFYV6RSFtuktYl3ZtYcq,0.7,0.722,7,-3.558,0,0.0369,0,0.272,0.756,90.989,140526,4
+1,Cardi B,WAP (feat. Megan Thee Stallion),WAP (feat. Megan Thee Stallion),4Oun2ylbjFKMPTiaSbbCih,0.935,0.454,1,-7.509,1,0.375,0,0.0824,0.357,133.073,187541,4
+2,Drake,Laugh Now Cry Later (feat. Lil Durk),Laugh Now Cry Later (feat. Lil Durk),2SAqBLGA283SUiwJ3xOUVI,0.761,0.518,0,-8.871,1,0.134,3.47E-05,0.107,0.522,133.976,261493,4
+3,The Weeknd,After Hours,Blinding Lights,0VjIjW4GlUZAMYd2vXMi3b,0.514,0.73,1,-5.934,1,0.0598,9.54E-05,0.0897,0.334,171.005,200040,4
+4,Jawsh 685,Savage Love (Laxed - Siren Beat) [BTS Remix],Savage Love (Laxed – Siren Beat) [BTS Remix],4TgxFMOn5yoESW6zCidCXL,0.758,0.598,0,-5.695,0,0.0868,0,0.295,0.658,149.836,184905,4
+5,Gabby Barrett,I Hope,I Hope,2Hc4t9N2nt37oO4sF9BynI,0.561,0.536,6,-6.227,1,0.0346,0,0.114,0.378,150.01,209229,4
+6,BTS,Dynamite,Dynamite,0v1x6rN6JHRapa03JElljE,0.746,0.765,6,-4.41,0,0.0993,0,0.0936,0.737,114.044,199054,4
+7,DaBaby,BLAME IT ON BABY,ROCKSTAR (feat. Roddy Ricch),7ytR5pFWmSjzHJIeQkgog4,0.746,0.69,11,-7.956,1,0.164,0,0.101,0.497,89.977,181733,4
+8,Justin Bieber,Holy,Holy (feat. Chance The Rapper),5u1n1kITHCxxp8twBcZxWy,0.673,0.704,6,-8.056,1,0.36,0,0.0898,0.372,86.919,212093,4
+9,Internet Money,"Lemonade (feat. Gunna, Don Toliver & NAV)",Lemonade,02kDW379Yfd5PzW5A6vuGt,0.799,0.66,1,-6.153,0,0.079,0,0.111,0.471,140.04,195429,4
+10,Harry Styles,Watermelon Sugar,Watermelon Sugar,1e9oZCCiX42nJl0AcqriVo,0.548,0.816,0,-4.209,1,0.0465,0,0.335,0.557,95.39,174000,4
+11,Lewis Capaldi,Before You Go,Before You Go,7ce20yLkzuXXLUhzIDoZih,0.459,0.575,3,-4.858,1,0.0573,0,0.0885,0.183,111.881,215107,4
+12,Pop Smoke,Shoot For The Stars Aim For The Moon,For The Night (feat. Lil Baby & DaBaby),0PvFJmanyNQMseIFrU708S,0.823,0.586,6,-6.606,0,0.2,0,0.193,0.347,125.971,190476,4
+13,Justin Bieber,Lonely (with benny blanco),Lonely (with benny blanco),4y4spB9m0Q6026KfkAvy9Q,0.631,0.239,11,-7.071,0,0.0398,0,0.116,0.0927,79.859,149297,4
+14,Chris Brown,Slime & B,Go Crazy,1IIKrJVP1C9N7iPtG6eOsK,0.755,0.578,0,-8.932,0,0.145,0,0.25,0.581,94.148,176960,4
+15,Jason Aldean,9,Got What I Got,4TCc369aRPRubv1m8R1TBG,0.512,0.58,3,-6.658,0,0.029,1.72E-05,0.513,0.303,159.847,178147,3
+16,Lee Brice,One Of Them Girls,One Of Them Girls,14GwnOeC9qYEKEA6uOZepa,0.643,0.79,4,-6.079,1,0.0462,0,0.107,0.8,95.987,188893,4
+17,Jack Harlow,"WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]","WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) - Remix",2MbdDtCv5LUVjYy9RuGTgC,0.904,0.723,11,-5.224,0,0.26,0,0.185,0.835,145.013,227478,4
+18,Post Malone,Hollywood's Bleeding,Circles,21jGcNKet2qwijlDFuPiPb,0.695,0.762,0,-3.497,1,0.0395,0.00244,0.0863,0.553,120.042,215280,4
+19,Kane Brown,Be Like That (feat. Swae Lee & Khalid),Be Like That - feat. Swae Lee & Khalid,5f1joOtoMeyppIcJGZQvqJ,0.727,0.626,7,-8.415,1,0.0726,2.58E-05,0.126,0.322,86.97,191406,4
+20,Fleetwood Mac,Greatest Hits,Dreams,1lbXEepatjRVjoG8pZMtdp,0.823,0.338,0,-15.899,1,0.0413,0.00129,0.5,0.785,120.473,254453,4
+21,Juice WRLD,Legends Never Die,Come & Go (with Marshmello),7y7w4tl4MaRC2UMEj1mPtr,0.625,0.814,0,-5.181,1,0.0657,0,0.158,0.535,144.991,205485,4
+22,Moneybagg Yo,Said Sum,Said Sum,45npF3MKvCa1sO7s4y7qBf,0.929,0.667,8,-6.789,0,0.353,0,0.1,0.274,126.998,155168,4
+23,Ava Max,Kings & Queens,Kings & Queens,76nqCfJOcFFWBJN32PAksn,0.638,0.688,1,-4.056,0,0.0407,0,0.126,0.434,129.856,162399,4
+24,Pop Smoke,Shoot For The Stars Aim For The Moon,What You Know Bout Love,1tkg4EHVoqnhR6iFEXb60y,0.709,0.548,10,-8.493,1,0.353,1.59E-06,0.133,0.543,83.995,160000,4
+25,AJR,Bang!,Bang!,53BHUFdQphHiZUUG3nx9zn,0.74,0.516,1,-6.233,0,0.0507,0,0.0558,0.698,139.918,170858,4
+26,Surf Mesa,ily (i love you baby) (feat. Emilee),ily (i love you baby) (feat. Emilee),62aP9fBQKYKxi7PDXwcUAS,0.674,0.774,11,-7.567,0,0.0892,0.00188,0.393,0.33,112.05,176547,4
+27,Morgan Wallen,More Than My Hometown,More Than My Hometown,6FniJZn4agmDtPx1pKZQsa,0.621,0.882,6,-5.01,1,0.0459,0,0.132,0.574,126.014,216573,4
+28,Jameson Rodgers,Jameson Rodgers,Some Girls,54eUv9Q3D9MZuOGS5PSflp,0.431,0.831,8,-5.108,1,0.0474,0,0.312,0.352,167.96,184893,4
+29,Shawn Mendes,Wonder,Wonder,5KCbr5ndeby4y4ggthdiAb,0.333,0.637,1,-4.904,0,0.0581,1.80E-05,0.149,0.132,139.898,172693,4
+30,Harry Styles,Adore You,Adore You,1M4qEo4HE3PRaCOM7EXNJq,0.676,0.771,8,-3.675,1,0.0483,7.00E-06,0.102,0.569,99.048,207133,4
+31,Pop Smoke,Shoot For The Stars Aim For The Moon,The Woo (feat. 50 Cent & Roddy Ricch),1H7KnK26kc1YyellpbINEn,0.49,0.618,1,-5.655,1,0.104,3.77E-06,0.259,0.286,99.7,201600,4
+32,SAINt JHN,Roses (Imanbek Remix),Roses - Imanbek Remix,7fPuWrlpwDcHm5aHCH5D9t,0.785,0.721,8,-5.457,1,0.0506,0.00432,0.285,0.894,121.962,176219,4
+33,Dua Lipa,Future Nostalgia,Break My Heart,017PF4Q3l4DBUiWoXk4OWT,0.73,0.729,4,-3.434,0,0.0883,1.39E-06,0.349,0.467,113.013,221820,4
+34,Sada Baby,Whole Lotta Choppas (Remix) [feat. Nicki Minaj],Whole Lotta Choppas (Remix) [feat. Nicki Minaj],1IlJZCRthVEPlksVzj3JWY,0.956,0.72,10,-2.73,0,0.173,0,0.117,0.282,127.943,173500,4
+35,Dua Lipa,Don't Start Now,Don't Start Now,6WrI0LAC5M1Rw2MnX2ZvEg,0.794,0.793,11,-4.521,0,0.0842,0,0.0952,0.677,123.941,183290,4
+36,HIXTAPE,HIXTAPE: Vol. 1,"One Beer (HARDY feat. Lauren Alaina, Devin Dawson)",5FmvaZGd6fulojSToozLRD,0.516,0.745,2,-8.352,1,0.0774,0,0.275,0.825,186.004,173173,3
+37,Rod Wave,Pray 4 Love,Rags2Riches (feat. ATR Son Son),1ENdcyhqdylaLsPVgB83qq,0.904,0.252,5,-17.54,0,0.11,0,0.104,0.227,117.994,167184,4
+38,Travis Scott,FRANCHISE (feat. Young Thug & M.I.A.),FRANCHISE (feat. Young Thug & M.I.A.),4jVBIpuOiMj1crqd8LoCrJ,0.835,0.699,8,-5.405,0,0.277,0,0.195,0.547,154.981,202795,4
+39,Pop Smoke,Shoot For The Stars Aim For The Moon,Mood Swings (feat. Lil Tjay),5rZlwNFl01HqLWBQGryKSm,0.48,0.602,10,-6.335,0,0.368,0,0.0848,0.269,179.798,213333,4
+40,Russell Dickerson,Love You Like I Used To,Love You Like I Used To,1D7cfiC5mxqHfTCcOiRBej,0.501,0.788,10,-4.624,1,0.0415,0,0.137,0.61,152.047,186613,4
+41,21 Savage,SAVAGE MODE II,Mr. Right Now (feat. Drake),4Q34FP1AT7GEl9oLgNtiWj,0.647,0.667,5,-5.563,1,0.304,0,0.133,0.704,172.08,193839,4
+42,Dan + Shay,I Should Probably Go To Bed,I Should Probably Go To Bed,5ovVcYo2MvjVydFwFyaaqy,0.721,0.277,1,-7.128,1,0.0365,0,0.112,0.309,131.935,171827,4
+43,Parker McCollum,Pretty Heart,Pretty Heart,6vC90OOjZR165Hw8CpsqEm,0.562,0.683,7,-4.427,1,0.0296,0,0.107,0.385,132.003,244798,4
+44,Luke Combs,What You See Is What You Get,Lovin' On You,0nYvjcSlCgjcwogQAwIwNp,0.572,0.949,4,-4.865,1,0.06,0.000195,0.163,0.53,118.974,194867,4
+45,DJ Khaled,POPSTAR (feat. Drake),POPSTAR (feat. Drake),6EDO9iiTtwNv6waLwa1UUq,0.8,0.56,5,-4.818,0,0.261,0,0.134,0.45,163.071,200221,4
+46,Dua Lipa,Levitating (feat. DaBaby),Levitating (feat. DaBaby),463CkQjx2Zk1yXoBuierM9,0.702,0.825,6,-3.787,0,0.0601,0,0.0674,0.915,102.977,203064,4
+47,Miley Cyrus,Midnight Sky,Midnight Sky,27ycaQnQAxaPiyeg3nr2aB,0.705,0.814,4,-5.466,0,0.0346,0.00312,0.203,0.259,110,223279,4
+48,Blake Shelton,Happy Anywhere (feat. Gwen Stefani),Happy Anywhere (feat. Gwen Stefani),2DwbFtfC6sXBiVDPmju8Dd,0.538,0.745,8,-5.774,1,0.0387,0,0.063,0.669,165.755,170173,4
+49,21 Savage,SAVAGE MODE II,Runnin,5SWnsxjhdcEDc7LJjq9UHk,0.819,0.626,10,-4.574,0,0.202,0.101,0.167,0.415,143.01,195906,4
+50,Money Man,24 (feat. Lil Baby),24 (feat. Lil Baby),7v96VvFLS0wSYT8kewNLRy,0.868,0.638,2,-7.746,1,0.0736,0.0565,0.0931,0.459,126.03,182857,4
+51,Yung Bleu,You’re Mines Still (feat. Drake),You’re Mines Still (feat. Drake),7E2C5rBLpCKwQlhJPVFBRS,0.575,0.609,5,-4.88,0,0.121,0,0.105,0.339,83.004,226220,4
+52,Saweetie,Tap In,Tap In,4Hpib09wXgD84w4uwTPnYD,0.954,0.696,10,-7.117,0,0.204,0.000498,0.0754,0.432,100.036,139413,4
+53,Machine Gun Kelly,my ex's best friend (with blackbear),my ex's best friend (with blackbear),70rFIfYN7lU6iTgUIVP42w,0.728,0.685,5,-5.096,0,0.0433,0,0.152,0.33,124.934,138970,4
+54,Juice WRLD,Legends Never Die,Wishing Well,6o3QUC5oAE4g6WxRIFcZtb,0.65,0.613,9,-6.13,0,0.128,0,0.267,0.0804,149.972,194621,4
+55,Matt Stell,Everywhere But On,Everywhere But On,0ifYeH4gNXEyba41xr3I1w,0.563,0.722,6,-3.972,1,0.0279,0,0.0795,0.309,149.903,192587,4
+56,Luke Combs,What You See Is What You Get,Better Together,6gdLyYNuhWBzqwlOFSsXC7,0.552,0.225,0,-11.501,1,0.0477,0,0.111,0.67,138.002,219573,4
+57,Tate McRae,you broke me first,you broke me first,45bE4HXI0AwGZXfZtMp8JR,0.642,0.374,4,-9.386,1,0.0545,0,0.0906,0.0799,124.099,169266,4
+58,Maluma,Hawái,Hawái,4uoR6qeWeuL4Qeu2qJzkuG,0.787,0.728,6,-3.455,0,0.389,2.29E-05,0.0629,0.545,180.066,200198,4
+59,Sam Smith,Diamonds,Diamonds,5hvwx5i67IwnCkjl9VHkNv,0.653,0.667,10,-6.764,0,0.0423,0,0.107,0.556,104.181,213869,4
+60,Morgan Wallen,7 Summers,7 Summers,0Z0kNthq0sS4lvGz9SSlBF,0.625,0.775,0,-5.199,1,0.0248,5.23E-05,0.12,0.588,101.961,210123,4
+61,Jon Pardi,Heartache Medication,Ain't Always The Cowboy,77XoAnllT85lmR9WP0D8dS,0.539,0.837,9,-3.458,1,0.0385,0,0.262,0.551,151.913,220881,4
+62,Megan Thee Stallion,Don’t Stop (feat. Young Thug),Don’t Stop (feat. Young Thug),3yv7994DWTEk3ihwy75YBQ,0.933,0.757,2,-3.212,1,0.117,0,0.135,0.544,137.993,187941,4
+63,Conan Gray,Kid Krow,Heather,4xqrdfXkTW4T0RauPLv3WA,0.357,0.425,5,-7.301,1,0.0333,0,0.322,0.27,102.078,198040,3
+64,Chris Stapleton,Starting Over,Starting Over,3TNSVsiFngfe68UJpMq1oS,0.638,0.538,10,-8.445,1,0.0315,0.000415,0.0695,0.318,89.124,240413,4
+65,SZA,Hit Different,Hit Different,7Bar1kLTmsRmH6FCKKMEyU,0.679,0.516,0,-6.371,0,0.0452,0,0.0965,0.716,120.074,202008,4
+66,Polo G,THE GOAT,Martin & Gina,1VLtjHwRWOVJiE5Py7JxoQ,0.832,0.534,1,-7.813,0,0.253,0,0.165,0.116,93.924,132833,4
+67,Chris Lane,"Big, Big Plans","Big, Big Plans",7yNJCsUH3tXlpQiHSsAc5l,0.574,0.58,7,-6.091,1,0.0278,0,0.12,0.4,149.974,187307,4
+68,Jhené Aiko,Chilombo,B.S. (feat. H.E.R.),63wx9vdskaXbYxyDx4oJCZ,0.617,0.525,8,-10.426,0,0.12,1.10E-06,0.135,0.377,135.781,212867,4
+69,Ne-Yo,U 2 Luv,U 2 Luv,3862MQcbNmghGJDfk8cOJi,0.626,0.592,6,-7.085,1,0.147,0.000312,0.0957,0.65,177.715,208216,4
+70,G-Eazy,Hate The Way (feat. blackbear),Hate The Way (feat. blackbear),3QGppKBPd9gHOgHJzRbVIw,0.569,0.865,4,-3.844,0,0.266,0,0.312,0.361,82.011,214363,4
+71,Lil Baby,The Bigger Picture,The Bigger Picture,44gRhRi2OhEf7moAUj6MD1,0.59,0.618,1,-5.756,1,0.334,0,0.244,0.153,96.459,252729,3
+72,Sech,Relación (Remix),Relación - Remix,35UUpTmrcFXNIVIN26ujXl,0.793,0.771,5,-3.417,1,0.0959,1.51E-06,0.284,0.835,171.943,247308,4
+73,Niko Moon,GOOD TIME - EP,GOOD TIME,5Kpg1A7BOHpBbaT3H3xqd3,0.79,0.646,5,-5.878,1,0.0447,0,0.295,0.641,138.047,214707,4
+74,Chloe x Halle,Do It,Do It,1bRjwdtScY2eMe9uMmsOkG,0.701,0.668,5,-7.287,0,0.0516,2.09E-06,0.111,0.553,82.978,176787,4
+75,DJ Khaled,GREECE (feat. Drake),GREECE (feat. Drake),35RJhm1pEovTBwnNR0zWad,0.695,0.343,5,-10.798,1,0.0432,1.04E-06,0.107,0.229,85.84,218902,4
+76,YoungBoy Never Broke Again,Top,Kacey Talk,1SF8piqsZWn86DajVKih8F,0.877,0.607,10,-7.818,0,0.15,0,0.138,0.773,127.055,151249,4
+77,DaBaby,BLAME IT ON BABY (DELUXE),BLIND (feat. Young Thug),2T5NBwKRySiCR78vVk08vr,0.709,0.679,11,-6.503,0,0.346,0,0.0971,0.754,162.973,153467,4
+78,Ritt Momney,Put Your Records On,Put Your Records On,6AGOKlMZWLCaEJGnaROtF9,0.399,0.491,6,-10.778,0,0.0538,0.00089,0.11,0.151,91.066,210463,4
+79,Marshmello,OK Not To Be OK,OK Not To Be OK,0zzVTGyRrWpQu8Fr28NRAv,0.743,0.837,1,-5.025,0,0.0649,0,0.0743,0.263,103.072,159863,4
+80,Larray,Canceled,Canceled,3VxOgQ9o1aKonFx4d5lPR3,0.647,0.803,11,-5.36,0,0.389,4.06E-06,0.0952,0.55,82.108,173880,4
+81,21 Savage,SAVAGE MODE II,Glock In My Lap,6pcywuOeGGWeOQzdUyti6k,0.847,0.733,10,-6.439,0,0.16,1.04E-05,0.151,0.202,130.029,193591,4
+82,J Balvin,UN DIA (ONE DAY) (Feat. Tainy),UN DIA (ONE DAY) (Feat. Tainy),0EhpEsp4L0oRGM0vmeaN5e,0.571,0.693,6,-8.234,0,0.0545,0,0.173,0.393,168.169,232253,4
+83,BLACKPINK,Ice Cream (with Selena Gomez),Ice Cream (with Selena Gomez),2J4P46vCFm1rPkNkp9pZWX,0.79,0.729,9,-3.843,1,0.334,9.31E-05,0.0411,0.904,159.989,175813,4
+84,Kenny Chesney,Here And Now,Happy Does,2v08cjj3Th8RpfJgluECcj,0.715,0.665,6,-5.486,1,0.0381,0,0.123,0.593,109.019,168733,4
+85,Juice WRLD,Legends Never Die,Smile (with The Weeknd),6wQlQrTY5mVS8EGaFZVwVF,0.694,0.685,6,-6.535,0,0.133,0,0.124,0.306,158.831,196180,4
+86,Topic,Breaking Me,Breaking Me,3H7ihDc1dqLriiWXwsc2po,0.789,0.72,8,-5.652,0,0.218,0,0.129,0.664,122.031,166794,4
+87,Taylor Swift,folklore,cardigan,4LEK9rD7TWIG4FCL1s27XC,0.613,0.581,0,-8.588,0,0.0424,0.000345,0.25,0.551,130.033,239560,4
+88,Megan Thee Stallion,Girls in the Hood,Girls in the Hood,6WbTTAGKrQtCQvmc5BuYfh,0.821,0.863,6,-3.159,1,0.353,0,0.0377,0.874,180.013,154324,4
+89,Lil Durk,3 Headed Goat (feat. Lil Baby & Polo G),3 Headed Goat (feat. Lil Baby & Polo G),677KTHp39ZBJ9csDdgymI9,0.835,0.482,8,-8.607,0,0.367,0,0.0991,0.448,143.015,169532,4
+90,Tim McGraw,I Called Mama,I Called Mama,3YuvAPidBWldqjagOryo40,0.501,0.63,2,-7.018,1,0.0329,4.33E-06,0.151,0.542,86.186,211577,4
+91,Machine Gun Kelly,Tickets To My Downfall,bloody valentine,6mADjHs6FXdroPzEGW6KVJ,0.533,0.858,2,-4.212,1,0.0766,0,0.148,0.506,160.057,205159,4
+92,BRS Kash,Throat Baby (Go Baby),Throat Baby (Go Baby),31iqpzg1ZXLLgq0L5iIwLe,0.9,0.521,4,-7.286,0,0.147,0,0.0951,0.213,132.007,218182,4
+93,Kelsea Ballerini,hole in the bottle,hole in the bottle,2EzFVkHWMMWmdwW08AlCK8,0.478,0.873,4,-3.637,1,0.122,0,0.374,0.739,104.365,155668,4
+94,Nio Garcia,La Jeepeta (Remix),La Jeepeta - Remix,1mohfLaTJtB2RplHLQVM70,0.815,0.715,4,-4.65,0,0.207,4.83E-06,0.091,0.786,176.007,345241,4
+95,Ozuna,Caramelo,Caramelo,3gD4J3RUHy4OUuZ3qAiaiG,0.728,0.806,6,-3.766,1,0.0623,0.000301,0.153,0.698,168.084,217547,4
+96,T.I.,The L.I.B.R.A.,Pardon (feat. Lil Baby),5W3z7a1dBlERTBAye0murh,0.955,0.587,10,-5.894,0,0.32,0,0.585,0.901,111.975,259958,4
+97,Keith Urban,One Too Many,One Too Many,5NUXE8W12lWcUXgJRCjeEw,0.697,0.535,4,-6.504,1,0.068,0,0.569,0.594,82.959,203893,4
+98,Gunna,WUNNA,DOLLAZ ON MY HEAD (feat. Young Thug),3nS9a01VvXHQriLqJYwRqG,0.825,0.458,0,-7.47,1,0.0577,0,0.102,0.161,145.115,197760,4
+99,Lady A,Champagne Night (From Songland),Champagne Night - From Songland,48F2xnWq3LuzYWML327Z2r,0.523,0.927,4,-2.796,1,0.0489,5.98E-06,0.168,0.939,149.929,185070,4
