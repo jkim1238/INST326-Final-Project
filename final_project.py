@@ -13,6 +13,7 @@ sp = spotipy.Spotify(auth_manager=
 
 sp.trace = False
 
+# Get Billboard Top 100 playlist
 playlist = sp.playlist("6UeSakyzhiEt4NB3UAd6NQ?si=1Rwmvg38SYy4Tg2RAaGEKQ")
 
 # Create empty dataframe
