@@ -29,14 +29,14 @@ Every Saturday evening on Discord or Zoom video call.
 
 ## Schedule and Milestones
 
-•	Research spotipy API and matplotlib module
-•	Retrieve dataset
-•	Program a graph each week
+  - Research spotipy API and matplotlib module
+  - Retrieve dataset
+  - Program a graph each week
 
 ## Bibliography
 
-•	https://www.billboard.com/charts/hot-100
-•	https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
+  - https://www.billboard.com/charts/hot-100
+  - https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
 ## Authors
 
@@ -64,9 +64,7 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+  - **Jiin Kim** - *Researcher* -
+    [jkim1238](https://github.com/jkim1238)
+  - **Nour Fouladi** - *Analyst* -
+    [TODO](https://github.com/jkim1238)
