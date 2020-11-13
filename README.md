@@ -29,7 +29,9 @@ Every Saturday evening on Discord or Zoom video call.
 
 ## Schedule and Milestones
 
-Explain how to run the automated tests for this system
+•	Research spotipy API and matplotlib module
+•	Retrieve dataset
+•	Program a graph each week
 
 ### Bibliography
 
@@ -42,10 +44,6 @@ Explain what these tests test and why
 Explain what these tests test and why
 
     Give an example
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
