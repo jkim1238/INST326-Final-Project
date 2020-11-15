@@ -1,6 +1,8 @@
 # Spotify Billboard Hot 100 Analysis
 
-![Imgur](https://imgur.com/58bU5Y8.png)
+<p align="center">
+  <img src="https://imgur.com/58bU5Y8.png" />
+</p>
 
 A program that will analyze a dataset from Spotify’s Billboard Hot 100.
 
