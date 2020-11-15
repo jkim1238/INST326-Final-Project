@@ -1,5 +1,5 @@
 <p align="center">
-  <h1><b>Spotify Billboard Hot 100 Analysis</b></h1>
+  <h1 style="text-align:center"><b>Spotify Billboard Hot 100 Analysis</b></h1>
 </p>
 
 <p align="center">
