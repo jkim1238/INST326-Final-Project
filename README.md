@@ -1,8 +1,5 @@
 <p align="center">
-<b>Spotify Billboard Hot 100 Analysis</b>
-</p>
-
-<p align="center">
+  <b>Spotify Billboard Hot 100 Analysis</b><br>
   <img src="https://imgur.com/6Mexw7E.png" />
 </p>
 
