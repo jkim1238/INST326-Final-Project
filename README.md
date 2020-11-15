@@ -3,7 +3,7 @@
   <img src="https://imgur.com/6Mexw7E.png" />
 </p>
 
-[![](https://img.shields.io/badge/python-3.4+-blue.svg)](https://www.python.org/downloads/)
+[![](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
 A program that will analyze a dataset from Spotify’s Billboard Hot 100.
 
