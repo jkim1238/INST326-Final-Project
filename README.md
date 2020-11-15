@@ -12,23 +12,17 @@ Our project will be able to identify popular genres, artists, and audio metrics 
 ## Summary
 
   - [Scope](#scope)
-  - [Installation](#installation)
   - [Project Breakdown and Division of Labor](#project-breakdown-and-division-of-labor)
   - [Meetings and Communication](#meetings-and-communication)
   - [Schedule and Milestones](#schedule-and-milestones)
+  - [Installation](#installation)
+  - [Usage](#usage)
   - [Bibliography](#bibliography)
   - [Authors](#authors)
 
 ## Scope
 
 Our project will be able to identify popular genres, artists, and audio metrics that makes a song reach The Hot 100. The project will be able to extract from the selected dataset and visualize it with graphs such as pie charts and bar graphs using spotipy and matplotlib modules in Python. Our project will not be creating our own plotting modules or analyzing songs outside The Hot 100.
-
-## Installation
-Besides needing the latest version of Python installed, you will also need to install the matplotlib and spotipy Python library. This can be accomplished by running the following code in the terminal you are using:
-```
-pip install matplotlib
-pip install spotipy
-```
 
 ## Project Breakdown and Division of Labor
 
@@ -45,6 +39,19 @@ Every Saturday evening on Discord or Zoom video call.
   - Research spotipy API and matplotlib module
   - Retrieve dataset
   - Program a graph each week
+  
+## Installation
+
+Besides needing the latest version of Python installed, you will also need to install the matplotlib and spotipy Python library. This can be accomplished by running the following code in the terminal you are using:
+
+```
+pip install matplotlib
+pip install spotipy
+```
+
+## Usage
+
+TODO
 
 ## Bibliography
 
