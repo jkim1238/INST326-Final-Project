@@ -1,6 +1,5 @@
-<center>Spotify Billboard Hot 100 Analysis</center>
-
 <p align="center">
+  Spotify Billboard Hot 100 Analysis
   <img src="https://imgur.com/6Mexw7E.png" />
 </p>
 
