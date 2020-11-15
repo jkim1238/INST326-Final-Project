@@ -9,7 +9,7 @@ Our project will be able to identify popular genres, artists, and audio metrics 
 ## Summary
 
   - [Scope](#scope)
-  - [Installation[[(#installation)
+  - [Installation](#installation)
   - [Project Breakdown and Division of Labor](#project-breakdown-and-division-of-labor)
   - [Meetings and Communication](#meetings-and-communication)
   - [Schedule and Milestones](#schedule-and-milestones)
