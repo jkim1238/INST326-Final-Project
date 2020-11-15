@@ -1,4 +1,6 @@
-<h1 style="text-align:center"><b>Spotify Billboard Hot 100 Analysis</b></h1>
+<p align="center">
+<b>Spotify Billboard Hot 100 Analysis</b>
+</p>
 
 <p align="center">
   <img src="https://imgur.com/6Mexw7E.png" />
