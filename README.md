@@ -3,6 +3,8 @@
   <img src="https://imgur.com/6Mexw7E.png" />
 </p>
 
+[![](https://img.shields.io/badge/python-3.4+-blue.svg)](https://www.python.org/downloads/)
+
 A program that will analyze a dataset from Spotify’s Billboard Hot 100.
 
 Our project will be able to identify popular genres, artists, and audio metrics that makes a song reach The Hot 100. The project will be able to extract from the selected dataset and visualize it with graphs such as pie charts and bar graphs using spotipy and matplotlib modules in Python. Our project will not be creating our own plotting modules or analyzing songs outside The Hot 100.
