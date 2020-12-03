@@ -48,6 +48,7 @@ Besides needing the latest version of Python installed, you will also need to in
 ```
 pip install matplotlib
 pip install spotipy
+pip install pandas
 ```
 
 ## Usage
