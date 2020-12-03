@@ -54,7 +54,15 @@ pip install pandas
 ## Usage
 
 ```
-TODO
+python spotify_analysis.py
+```
+or
+```
+python spotify_analysis.py [-p PATH]
+```
+or
+```
+python spotify_analysis.py [--path PATH]
 ```
 
 ## Bibliography
