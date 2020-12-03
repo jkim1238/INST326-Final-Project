@@ -43,7 +43,7 @@ Every Saturday evening on Discord or Zoom video call.
   
 ## Installation
 
-Besides needing the latest version of Python installed, you will also need to install the matplotlib and spotipy Python library. This can be accomplished by running the following code in the terminal you are using:
+Besides needing the latest version of Python installed, you will also need to install the matplotlib, spotipy, and pandas Python library. This can be accomplished by running the following code in the terminal you are using:
 
 ```
 pip install matplotlib
