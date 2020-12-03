@@ -55,8 +55,7 @@ pip install pandas
 
 usage: Analyze a dataset from Spotify's Billboard Hot 100. [-h] [-p PATH]
 
-optional arguments:
-
+optional arguments:  
   -h, --help            show this help message and exit  
   -p PATH, --path PATH  the path to the csv file
 
