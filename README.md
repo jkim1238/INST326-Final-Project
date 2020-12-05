@@ -85,7 +85,9 @@ MENU None
 6. Save to CSV file
 7. Exit
 ---------------------------------------------
+
 Enter choice: 1
+
                   Mood (feat. iann dior)
                           Therefore I Am
                                positions
@@ -96,7 +98,9 @@ Enter choice: 1
                                 Lemonade
                                   Dakiti
  For The Night (feat. Lil Baby & DaBaby)
+
 Press ENTER to continue...
+
 ---------------------------------------------
 MENU None
 ---------------------------------------------
@@ -108,9 +112,13 @@ MENU None
 6. Save to CSV file
 7. Exit
 ---------------------------------------------
+
 Enter choice: 6
+
 Enter filename: test
+
 Saved to CSV file...
+
 ---------------------------------------------
 MENU None
 ---------------------------------------------
@@ -122,7 +130,9 @@ MENU None
 6. Save to CSV file
 7. Exit
 ---------------------------------------------
+
 Enter choice: 7
+
 Exiting...
 ```
 
