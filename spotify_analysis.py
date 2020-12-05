@@ -1,0 +1,241 @@
+import argparse
+import sys
+import matplotlib.pyplot as plt
+import pandas
+import spotipy
+from matplotlib.ticker import MaxNLocator
+
+
+def get_spotify_data():
+    from spotipy.oauth2 import SpotifyClientCredentials
+
+    sp = spotipy.Spotify(auth_manager=
+    SpotifyClientCredentials(
+        client_id="8f435079637248efa9508bb5b03900af",
+        client_secret="525b9a3209c04587ae12543e5c17bbf4"))
+
+    sp.trace = False
+
+    # Billboard Top 100 Playlist.
+    playlist = sp.playlist("6UeSakyzhiEt4NB3UAd6NQ?si=1Rwmvg38SYy4Tg2RAaGEKQ")
+
+    # Create empty data frame.
+    playlist_features_list = ["artist", "album", "track_name", "track_id",
+                              "danceability", "energy", "key", "loudness",
+                              "mode", "speechiness", "instrumentalness",
+                              "liveness", "valence", "tempo", "duration_ms",
+                              "time_signature"]
+
+    playlist_df = pandas.DataFrame(columns=playlist_features_list)
+
+    # Loop through every track in the playlist, extract features and append the
+    # features to the playlist data frame.
+    for track in playlist["tracks"]["items"]:
+
+        # Create dictionary and get metadata.
+        playlist_features = {
+            "artist": track["track"]["album"]["artists"][0]["name"],
+            "album": track["track"]["album"]["name"],
+            "track_name": track["track"]["name"],
+            "track_id": track["track"]["id"]
+        }
+
+        # Get audio features.
+        audio_features = sp.audio_features(playlist_features["track_id"])[0]
+        for feature in playlist_features_list[4:]:
+            playlist_features[feature] = audio_features[feature]
+
+        # Concat the dfs.
+        track_df = pandas.DataFrame(playlist_features, index=[0])
+        playlist_df = pandas.concat([playlist_df, track_df], ignore_index=True)
+
+    # Return data frame.
+    return playlist_df
+
+
+class Plot:
+    def __init__(self, path=None):
+        if path is None:
+            self.data_frame = get_spotify_data()
+        else:
+            self.data_frame = pandas.read_csv(path)
+
+    def top_10_songs(self):
+        # Print top 10 songs.
+        print(self.data_frame.head(10).track_name.to_string(index=False))
+
+    def top_10_artists(self):
+        # Print top 10 artists.
+        print(self.data_frame.head(10).artist.to_string(index=False))
+
+    def bar_plot_top_10_frequency(self):
+        # Get top 10 frequency.
+        axes = self.data_frame["artist"].value_counts().nlargest(10).plot.bar(
+            rot=0,
+            color="turquoise",
+            title="Top 10 Artists Frequency",
+            legend=True
+        )
+
+        # Set labels.
+        axes.set_xlabel("Artist", fontsize=12)
+        axes.set_ylabel("Frequency", fontsize=12)
+        axes.yaxis.set_major_locator(MaxNLocator(integer=True))
+
+        # Add values above bars.
+        for p in axes.patches:
+            axes.annotate("%.0f" % p.get_height(),
+                          (p.get_x() + p.get_width() / 2., p.get_height()),
+                          ha="center", va="center", xytext=(0, 10),
+                          textcoords="offset points")
+
+        # Show plot.
+        plt.show()
+
+    def pie_plot_top_10_frequency(self):
+        # Get top 10 frequency.
+        axes = self.data_frame["artist"].value_counts().nlargest(10).plot.pie(
+            autopct="%1.1f%%",
+            figsize=(10, 10),
+            legend=True,
+            title="Top 10 Artists Frequency"
+        )
+
+        # Set legend.
+        axes.legend(
+            loc="center left",
+            bbox_to_anchor=(-0.1, 1)
+        )
+
+        # Show plot.
+        plt.show()
+
+    def box_plot_audio_metrics(self):
+        # Get danceability and energy audio metrics.
+        axes = self.data_frame.boxplot(
+            column=["danceability", "energy", "speechiness"],
+            grid=False
+        )
+
+        # Set legend.
+        axes.legend(labels=["danceability - how suitable a track is for dancing", "energy - intensity and activity", "speechiness - presence of spoken words"])
+
+        # Set title.
+        plt.title("Billboard Top 100 Danceability & Energy")
+
+        # Label axes.
+        axes.set_xlabel("Audio Metric")
+        axes.set_ylabel("Least to Most")
+
+        # Show plot.
+        plt.show()
+
+    def save_to_csv_file(self, filename):
+        # Save data frame to CSV file.
+        self.data_frame.to_csv(f"{filename}.csv")
+
+
+def main(path):
+    # Create an instance of Plot.
+    plot = Plot(path)
+
+    while True:
+        # Show menu.
+        print(57 * "-")
+        print(f"MENU {path}")
+        print(57 * "-")
+        print("1. Top 10 Songs")
+        print("2. Top 10 Artists")
+        print("3. Bar Plot - Top 10 Artists Frequency")
+        print("4. Pie Plot - Top 10 Artists Frequency")
+        print("5. Box Plot - Top 100 Danceability, Energy, & Speechiness")
+        print("6. Save to CSV file")
+        print("7. Exit")
+        print(57 * "-")
+
+        print()
+        # Prompt choice.
+        choice = int(input("Enter choice: "))
+        print()
+
+        # Handle choice.
+        if choice == 1:
+            plot.top_10_songs()
+            print()
+            input("Press ENTER to continue...")
+            print()
+        elif choice == 2:
+            plot.top_10_artists()
+            print()
+            input("Press ENTER to continue...")
+            print()
+        elif choice == 3:
+            plot.bar_plot_top_10_frequency()
+        elif choice == 4:
+            plot.pie_plot_top_10_frequency()
+        elif choice == 5:
+            plot.box_plot_audio_metrics()
+        elif choice == 6:
+            if path is None:
+                # Prompt filename.
+                filename = input("Enter filename: ")
+                print()
+
+                # Call save to CSV file method.
+                plot.save_to_csv_file(filename)
+
+                # Print message to user.
+                print("Saved to CSV file...")
+                print()
+            else:
+                # Print error.
+                print("Error. You are reading from a CSV file.")
+                input("Press ENTER to continue...")
+                print()
+        elif choice == 7:
+            print("Exiting...")
+            break
+        else:
+            input("Error. Press ENTER to continue...")
+            print()
+
+
+def parse_args(my_args_list):
+    """Parses the command line arguments for the program;
+    this will result in a namespace object, which you should return.
+
+    Args:
+        my_args_list (str): a list of strings containing the command line
+            arguments for the program.
+
+    Returns:
+        namespace object: the command line arguments namespace object.
+    """
+
+    # Create a new Parser instance.
+    parser = argparse.ArgumentParser("Analyze a dataset from Spotify's "
+                                     "Billboard Hot 100.")
+
+    # Optional arguments.
+    # The path to the text file.
+    parser.add_argument("-p", "--path",
+                        type=str,
+                        help="the path to the csv file")
+
+    # Parsing the list using the arguments defined in the parser object.
+    # Use the parse_args() method of your ArgumentParser instance to parse the
+    # list of strings that was passed to your function; this will result in a
+    # namespace object, which you should return.
+    args = parser.parse_args(my_args_list)
+
+    # Return the namespace object.
+    return args
+
+
+if __name__ == '__main__':
+    # Pass sys.argv[1:] to parse_args() and store the result in a
+    # variable.
+    args = parse_args(sys.argv[1:])
+
+    # Call the main() function.
+    main(args.path)
