@@ -73,6 +73,8 @@ python spotify_analysis.py [--path PATH]
 
 **Example**
 
+Past datasets can be found in the data folder.
+
 ```python
 ---------------------------------------------------------
 MENU None
