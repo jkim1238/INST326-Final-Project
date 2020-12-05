@@ -74,9 +74,9 @@ python spotify_analysis.py [--path PATH]
 **Example**
 
 ```python
----------------------------------------------
+---------------------------------------------------------
 MENU None
----------------------------------------------
+---------------------------------------------------------
 1. Top 10 Songs
 2. Top 10 Artists
 3. Bar Plot - Top 10 Artists Frequency
@@ -84,7 +84,7 @@ MENU None
 5. Box Plot - Top 100 Danceability, Energy, & Speechiness
 6. Save to CSV file
 7. Exit
----------------------------------------------
+---------------------------------------------------------
 
 Enter choice: 1
 
@@ -101,9 +101,9 @@ Enter choice: 1
 
 Press ENTER to continue...
 
----------------------------------------------
+---------------------------------------------------------
 MENU None
----------------------------------------------
+---------------------------------------------------------
 1. Top 10 Songs
 2. Top 10 Artists
 3. Bar Plot - Top 10 Artists Frequency
@@ -111,7 +111,7 @@ MENU None
 5. Box Plot - Top 100 Danceability, Energy, & Speechiness
 6. Save to CSV file
 7. Exit
----------------------------------------------
+---------------------------------------------------------
 
 Enter choice: 6
 
@@ -119,9 +119,9 @@ Enter filename: test
 
 Saved to CSV file...
 
----------------------------------------------
+---------------------------------------------------------
 MENU None
----------------------------------------------
+---------------------------------------------------------
 1. Top 10 Songs
 2. Top 10 Artists
 3. Bar Plot - Top 10 Artists Frequency
@@ -129,7 +129,7 @@ MENU None
 5. Box Plot - Top 100 Danceability, Energy, & Speechiness
 6. Save to CSV file
 7. Exit
----------------------------------------------
+---------------------------------------------------------
 
 Enter choice: 7
 
