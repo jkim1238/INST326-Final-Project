@@ -1,7 +1,7 @@
 # Spotify Billboard Hot 100 Analysis [![](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
 <p align="center">
-  <img src="https://imgur.com/6Mexw7E.png" />
+  <img src="https://imgur.com/zl25v2f.png" />
 </p>
 
 A program that will analyze a dataset from Spotify’s Billboard Hot 100.
