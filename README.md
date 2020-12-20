@@ -71,75 +71,7 @@ or
 python spotify_analysis.py [--path PATH]
 ```
 
-**Example**
-
-Past datasets can be found in the data folder.
-
-```
-python spotify_analysis.py
-```
-
-```python
----------------------------------------------------------
-MENU None
----------------------------------------------------------
-1. Top 10 Songs
-2. Top 10 Artists
-3. Bar Plot - Top 10 Artists Frequency
-4. Pie Plot - Top 10 Artists Frequency
-5. Box Plot - Top 100 Danceability, Energy, & Speechiness
-6. Save to CSV file
-7. Exit
----------------------------------------------------------
-
-Enter choice: 1
-
-                  Mood (feat. iann dior)
-                          Therefore I Am
-                               positions
-             I Hope (feat. Charlie Puth)
-    Laugh Now Cry Later (feat. Lil Durk)
-                         Blinding Lights
-          Holy (feat. Chance The Rapper)
-                                Lemonade
-                                  Dakiti
- For The Night (feat. Lil Baby & DaBaby)
-
-Press ENTER to continue...
-
----------------------------------------------------------
-MENU None
----------------------------------------------------------
-1. Top 10 Songs
-2. Top 10 Artists
-3. Bar Plot - Top 10 Artists Frequency
-4. Pie Plot - Top 10 Artists Frequency
-5. Box Plot - Top 100 Danceability, Energy, & Speechiness
-6. Save to CSV file
-7. Exit
----------------------------------------------------------
-
-Enter choice: 6
-
-Enter filename: test
-
-Saved to CSV file...
-
----------------------------------------------------------
-MENU None
----------------------------------------------------------
-1. Top 10 Songs
-2. Top 10 Artists
-3. Bar Plot - Top 10 Artists Frequency
-4. Pie Plot - Top 10 Artists Frequency
-5. Box Plot - Top 100 Danceability, Energy, & Speechiness
-6. Save to CSV file
-7. Exit
----------------------------------------------------------
-
-Enter choice: 7
-
-Exiting...
+[![INST326 Final Project Presentation Spotify Analysis](https://imgur.com/Drj5EMj.png)](https://www.youtube.com/watch?v=ZD7cg94gz2U)
 ```
 
 ## Bibliography
