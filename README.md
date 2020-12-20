@@ -71,7 +71,7 @@ or
 python spotify_analysis.py [--path PATH]
 ```
 
-[![INST326 Final Project Presentation Spotify Analysis](https://imgur.com/Drj5EMj.png)](https://www.youtube.com/watch?v=ZD7cg94gz2U)
+[![INST326 Final Project Presentation Spotify Analysis](https://img.youtube.com/vi/ZD7cg94gz2U/0.jpg)](https://www.youtube.com/watch?v=ZD7cg94gz2U)
 ```
 
 ## Bibliography
