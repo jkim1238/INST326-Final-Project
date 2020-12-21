@@ -24,9 +24,12 @@ def get_spotify_data():
     # Get Spotify credentials.
     from spotipy.oauth2 import SpotifyClientCredentials
 
+    # Enter Spotify API keys here.
     sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-        client_id="8f435079637248efa9508bb5b03900af",
-        client_secret="525b9a3209c04587ae12543e5c17bbf4"))
+        # Enter client ID key here as a string.
+        client_id="",
+        # Enter client secret key here as a string.
+        client_secret=""))
 
     sp.trace = False
 
