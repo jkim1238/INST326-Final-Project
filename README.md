@@ -79,11 +79,16 @@ python spotify_analysis.py [-p PATH]
 pip install pytest
 ```
 
-2. Run pytest with test_spotify_analysis.py in the same directory as spotify_analysis.py.
+2. Ensure test_spotify_analysis.py, spotify_analysis.py, /data/test.csv is in the same directory.
+3. Run pytest.
 
 ```
 pytest test_spotify_analysis.py
 ```
+
+<p align="center">
+  <img src="https://imgur.com/kj46coA.png" />
+</p>
 
 ## Bibliography
 
