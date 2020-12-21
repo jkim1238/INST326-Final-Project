@@ -1,3 +1,11 @@
+"""A script that will analyze a dataset from Spotify’s Billboard Hot 100.
+Name: Jiin Kim, Nour Fouladi
+Directory ID: jkim1238, nfouladi
+Date: 2020-12-21
+Assignment: Final Project
+"""
+
+# Import modules.
 import argparse
 import sys
 import matplotlib.pyplot as plt
@@ -7,10 +15,16 @@ from matplotlib.ticker import MaxNLocator
 
 
 def get_spotify_data():
+    """Creates data frame from current Spotify's Billboard Hot 100.
+
+    Returns:
+        data frame obj: the Hot 100 songs.
+    """
+
+    # Get Spotify credentials.
     from spotipy.oauth2 import SpotifyClientCredentials
 
-    sp = spotipy.Spotify(auth_manager=
-    SpotifyClientCredentials(
+    sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
         client_id="8f435079637248efa9508bb5b03900af",
         client_secret="525b9a3209c04587ae12543e5c17bbf4"))
 
@@ -19,6 +33,12 @@ def get_spotify_data():
     # Billboard Top 100 Playlist.
     playlist = sp.playlist("6UeSakyzhiEt4NB3UAd6NQ?si=1Rwmvg38SYy4Tg2RAaGEKQ")
 
+    # SOURCE:
+    # Author: Max Hilsdorf
+    # Title: How to Create Large Music Datasets Using Spotipy
+    # https://towardsdatascience.com/how-to-create-large-music-datasets-using-
+    # spotipy-40e7242cc6a6
+
     # Create empty data frame.
     playlist_features_list = ["artist", "album", "track_name", "track_id",
                               "danceability", "energy", "key", "loudness",
@@ -26,6 +46,7 @@ def get_spotify_data():
                               "liveness", "valence", "tempo", "duration_ms",
                               "time_signature"]
 
+    # Create data frame columns.
     playlist_df = pandas.DataFrame(columns=playlist_features_list)
 
     # Loop through every track in the playlist, extract features and append the
@@ -54,21 +75,53 @@ def get_spotify_data():
 
 
 class Plot:
+    """A class to analyze Spotify's Billboard Hot 100 songs.
+
+    Attributes:
+        data_frame (obj): the Hot 100 data frame.
+    """
+
     def __init__(self, path=None):
+        """Initializes a Plot object.
+
+        Args:
+            path (str): the path to the CSV file.
+        """
+
+        # If there is no path, call get_spotify_data() and get data frame,
+        # else, read CSV file.
         if path is None:
             self.data_frame = get_spotify_data()
         else:
             self.data_frame = pandas.read_csv(path)
 
     def top_10_songs(self):
+        """Prints top 10 songs.
+
+        Side effects:
+            Prints information to the console.
+        """
+
         # Print top 10 songs.
         print(self.data_frame.head(10).track_name.to_string(index=False))
 
     def top_10_artists(self):
+        """Prints top 10 artists.
+
+        Side effects:
+            Prints information to the console.
+        """
+
         # Print top 10 artists.
         print(self.data_frame.head(10).artist.to_string(index=False))
 
     def bar_plot_top_10_frequency(self):
+        """Plots top 10 artists frequency as bar plot.
+
+        Side effects:
+            Displays bar plot window.
+        """
+
         # Get top 10 frequency.
         axes = self.data_frame["artist"].value_counts().nlargest(10).plot.bar(
             rot=0,
@@ -93,6 +146,12 @@ class Plot:
         plt.show()
 
     def pie_plot_top_10_frequency(self):
+        """Plots top 10 artists frequency as pie plot.
+
+        Side effects:
+            Displays pie plot window.
+        """
+
         # Get top 10 frequency.
         axes = self.data_frame["artist"].value_counts().nlargest(10).plot.pie(
             autopct="%1.1f%%",
@@ -111,17 +170,26 @@ class Plot:
         plt.show()
 
     def box_plot_audio_metrics(self):
-        # Get danceability and energy audio metrics.
+        """Plots top 10 artists frequency as box plot.
+
+        Side effects:
+            Displays box plot window.
+        """
+
+        # Get danceability, energy, and speechiness audio metrics.
         axes = self.data_frame.boxplot(
             column=["danceability", "energy", "speechiness"],
             grid=False
         )
 
         # Set legend.
-        axes.legend(labels=["danceability - how suitable a track is for dancing", "energy - intensity and activity", "speechiness - presence of spoken words"])
+        axes.legend(
+            labels=["danceability - how suitable a track is for dancing",
+                    "energy - intensity and activity",
+                    "speechiness - presence of spoken words"])
 
         # Set title.
-        plt.title("Billboard Top 100 Danceability & Energy")
+        plt.title("Billboard Top 100 Danceability, Energy, & Speechiness")
 
         # Label axes.
         axes.set_xlabel("Audio Metric")
@@ -131,14 +199,31 @@ class Plot:
         plt.show()
 
     def save_to_csv_file(self, filename):
+        """Saves data frame to CSV file.
+
+        Args:
+            filename (str): the filename.
+
+        Side effects:
+            Creates CSV file.
+        """
+
         # Save data frame to CSV file.
         self.data_frame.to_csv(f"{filename}.csv")
 
 
 def main(path):
+    """Creates an instance of the Plot class.
+
+    Side effects:
+        Prints information to the console. Displays plot windows. Creates CSV
+        file.
+    """
+
     # Create an instance of Plot.
     plot = Plot(path)
 
+    # Loops while user chooses options.
     while True:
         # Show menu.
         print(57 * "-")
@@ -152,13 +237,25 @@ def main(path):
         print("6. Save to CSV file")
         print("7. Exit")
         print(57 * "-")
-
         print()
+
         # Prompt choice.
-        choice = int(input("Enter choice: "))
+        try:
+            choice = int(input("Enter choice: "))
+        except ValueError:
+            choice = None
+
         print()
 
         # Handle choice.
+        # If choice is 1, call top_10_songs() method,
+        # else if choice is 2, call top_10_artists() method,
+        # else if choice is 3, call bar_plot_top_10_frequency() method,
+        # else if choice is 4, call pie_plot_top_10_frequency() method,
+        # else if choice is 5, call box_plot_audio_metrics() method,
+        # else if choice is 6, call save_to_csv_file() method,
+        # else if choice is 7, exit program,
+        # else, print error.
         if choice == 1:
             plot.top_10_songs()
             print()
@@ -181,7 +278,7 @@ def main(path):
                 filename = input("Enter filename: ")
                 print()
 
-                # Call save to CSV file method.
+                # Call save_to_csv_file() method.
                 plot.save_to_csv_file(filename)
 
                 # Print message to user.
@@ -193,9 +290,11 @@ def main(path):
                 input("Press ENTER to continue...")
                 print()
         elif choice == 7:
+            # Print exit message.
             print("Exiting...")
             break
         else:
+            # Print error.
             input("Error. Press ENTER to continue...")
             print()
 
