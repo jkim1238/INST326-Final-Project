@@ -53,8 +53,7 @@ pip install pandas
 
 ## Usage
 
-1. Edit spotify_analysis.py file and add API keys.
-2. Add client ID key as a string on line 30.
+1. Edit spotify_analysis.py file and add API keys. 2. Add client ID key as a string on line 30.
 3. Add client secret key as a string on line 32.
 4. Run program in 2 ways.
 5. Run program without arguments.
