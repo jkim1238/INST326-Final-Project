@@ -18,6 +18,7 @@ Our project will be able to identify popular genres, artists, and audio metrics 
   - [Schedule and Milestones](#schedule-and-milestones)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Running The Tests](#running-the-tests)
   - [Bibliography](#bibliography)
   - [Authors](#authors)
 
@@ -69,6 +70,8 @@ python spotify_analysis.py [-p PATH]
 
 **Click image for Youtube Presentation/Usage**  
 [![INST326 Final Project Presentation Spotify Analysis](readme-files/INST326_Final_Project_Presentation_Spotify_Analysis.gif)](https://www.youtube.com/watch?v=ZD7cg94gz2U)
+
+## Running the Testss
 
 ## Bibliography
 
