@@ -73,6 +73,18 @@ python spotify_analysis.py [-p PATH]
 
 ## Running the Tests
 
+1. Install pytest module:
+
+```
+pip install pytest
+```
+
+2. Run pytest with test_spotify_analysis.py in the same directory as spotify_analysis.py.
+
+```
+pytest
+```
+
 ## Bibliography
 
   - https://www.billboard.com/charts/hot-100
