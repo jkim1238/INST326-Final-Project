@@ -53,23 +53,19 @@ pip install pandas
 
 ## Usage
 
-usage: Analyze a dataset from Spotify's Billboard Hot 100. [-h] [-p PATH]
-
-optional arguments:  
-  -h, --help            show this help message and exit  
-  -p PATH, --path PATH  the path to the csv file
-
+1. Edit spotify_analysis.py file and add API keys.
+2. Add client ID key as a string on line 30.
+3. Add client secret key as a string on line 32.
+4. Run program in 2 ways.
+5. Run program without arguments.
 ```
 python spotify_analysis.py
 ```
-or
+6. Run program with optional CSV file path argument.
 ```
 python spotify_analysis.py [-p PATH]
 ```
-or
-```
-python spotify_analysis.py [--path PATH]
-```
+5. Enter menu options.
 
 **Click image for Youtube Presentation/Usage**
 [![INST326 Final Project Presentation Spotify Analysis](readme-files/INST326_Final_Project_Presentation_Spotify_Analysis.gif)](https://www.youtube.com/watch?v=ZD7cg94gz2U)
