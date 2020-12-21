@@ -58,11 +58,11 @@ pip install pandas
 2. Add client ID key as a string on line 30.
 3. Add client secret key as a string on line 32.
 4. Run program in 2 ways.
-5. Run program without arguments.
+5. (1) Run program without arguments.
 ```
 python spotify_analysis.py
 ```
-6. Run program with optional CSV file path argument. (past datasets can be found in /data/ folder)
+6. (2) Run program with optional CSV file path argument. (past datasets can be found in /data/ folder)
 ```
 python spotify_analysis.py [-p PATH]
 ```
