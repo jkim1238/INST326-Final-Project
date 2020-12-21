@@ -82,7 +82,7 @@ pip install pytest
 2. Run pytest with test_spotify_analysis.py in the same directory as spotify_analysis.py.
 
 ```
-pytest
+pytest test_spotify_analysis.py
 ```
 
 ## Bibliography
