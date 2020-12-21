@@ -73,7 +73,7 @@ python spotify_analysis.py [--path PATH]
 
 **Click image for Youtube Presentation/Usage**
 
-[![INST326 Final Project Presentation Spotify Analysis](readme-files/INST326_Final_Project_Presentation_Spotify_Analysis.gif)](https://www.youtube.com/watch?v=ZD7cg94gz2U)
+<center>[![INST326 Final Project Presentation Spotify Analysis](readme-files/INST326_Final_Project_Presentation_Spotify_Analysis.gif)](https://www.youtube.com/watch?v=ZD7cg94gz2U)</center>
 
 ## Bibliography
 
